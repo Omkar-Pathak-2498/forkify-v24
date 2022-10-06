@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Collection Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Omkar Pathak",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.3"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
